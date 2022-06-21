@@ -1,0 +1,44 @@
+{
+    "NODE": {
+        "TYPE": "RN",
+        "RULE": "NN",
+        "P2P": {
+            "CLUSTER": {
+                "ROOT": "0x253f7f0360040000",
+                "ADDR": "0x0000",
+                "MAX": 21
+            }
+        },
+        "SOCK": {
+            "NUM": {
+                "UDP_SVR": 0,
+                "UDP_CLI": 0,
+                "TCP_SVR": 1,
+                "TCP_CLI": 1
+            },
+            "TCP_SVR_1": {
+                "IP": "192.168.10.101",
+                "PORT": 11879,
+                "TOTAL_PEERS": 1,
+                "PEERS": [
+                    {
+                        "IP": "192.168.10.104",
+                        "PORT": 21879
+                    }
+                ]
+            },
+            "TCP_CLI_1": {
+                "AUTO_JOIN": 0,
+                "P2P_JOIN": 1,
+                "PEER": {
+                    "IP": "192.168.10.104",
+                    "PORT": 11879
+                },
+                "LOCAL": {
+                    "IP": "192.168.10.101",
+                    "PORT": 21879
+                }
+            }
+        }
+    }
+}

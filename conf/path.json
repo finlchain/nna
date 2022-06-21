@@ -1,0 +1,30 @@
+{
+    "PATH" :
+    {
+        "KEY" :
+        {
+			"CONS" :
+			{
+				"PRIKEY_NAME" : "ed_privkey.pem",
+				"PUBKEY_NAME" : "ed_pubkey.pem",
+				
+				"MY_KEY" : "./../../conf/key/me/",
+				
+				"REMOTE_KEY" : "key/remote/"
+			}
+        },
+		"PW" :
+        {
+			"DB" :
+			{
+				"PW_MARIA" : "pw_maria.fin",
+				"PW_REDIS" : "pw_redis.fin",
+				
+				"PW" : "./../../conf/pw/db/",
+				
+				"MY_PW" : "./../../conf/pw/db/me/",
+				"REMOTE_PW" : "./../../conf/pw/db/remote/"
+			}
+        }
+    }
+}

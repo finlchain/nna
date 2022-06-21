@@ -1,0 +1,13 @@
+{
+	"CLI" :
+	{
+		"SERIAL_EMUL" :
+        {
+            "PATH" :
+            {
+                "TTY_0" : "/home/mofas/dev/ttyV0",
+                "TTY_1" : "/home/mofas/dev/ttyV1"
+            }
+        }
+	}
+}

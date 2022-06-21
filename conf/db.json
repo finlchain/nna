@@ -1,0 +1,14 @@
+{
+	"NN" :
+	{
+		"TYPE" :"mysql",
+		"HOST" : "localhost",
+		"PORT" : 27017,
+		"DB"   : "block",
+		"USER" : "root",
+		"SOCKET" : "/disk/db/mysql/mysql.sock",
+		"PASSWORD"  : "ENCRYPTEDPASSWORD",
+        "PW_PATH" : "./../../conf/pw/db/me/pw_maria.fin",
+        "SEED_PATH" : "./../../conf/pw/db/me/seed"
+	},
+}

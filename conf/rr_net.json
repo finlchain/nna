@@ -1,0 +1,33 @@
+{
+    "NET": {
+        "REVISION": 2,
+        "TIER_NUM": 1,
+        "TIER": [
+            {
+                "GEN_INTERVAL": 2000,
+                "GEN_ROUND_CNT": 1,
+                "START_TIME": "1629711103313",
+                "START_BLOCK": "1",
+                "TOTAL_NN": 2,
+                "NN_LIST": [
+                    {
+                        "P2P": "0x253f7f0360040000",
+                        "SOCK": {
+                            "PROTO": 1,
+                            "IP": "192.168.10.101",
+                            "PORT": 11879
+                        }
+                    },
+                    {
+                        "P2P": "0x25357e5760080000",
+                        "SOCK": {
+                            "PROTO": 1,
+                            "IP": "192.168.10.104",
+                            "PORT": 11879
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
